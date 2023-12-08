@@ -19,7 +19,7 @@ with open('wikidata_ids.json', 'r') as file_contents:
             claim.setTarget(target)
             item.addClaim(claim, summary="Bot: Adding claim Public Art as artist's genre to "+artist_id)
 
-            source = ???
+            source = "https://picasso.iro.umontreal.ca/~mona/api/v3/artists"
             claim.addSource(source, summary='Bot: Adding sources to artistic genre of oeuvre (P136).')
         else:
             print(" "+artist_id+" already has claim for P136\n")
