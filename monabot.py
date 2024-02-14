@@ -14,8 +14,9 @@ with open('wikidata_ids.json', 'r') as file_contents:
     
     for artist_id in artist_ids:
         if counter < limit:
+            counter += 1
+
             item = pywikibot.ItemPage(repo, artist_id)
-            
             print("Adding P136 claim to "+artist_id)
             if 'P136' not in item.claims:
                 claim = pywikibot.Claim(repo, 'P136') #Adding artistic genre of oeuvre (P136)
