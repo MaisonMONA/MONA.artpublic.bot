@@ -18,11 +18,14 @@ with open('wikidata_ids.json', 'r') as file_contents:
 
             item = pywikibot.ItemPage(repo, artist_id)
             hasGenre = 'P136' in item.claims
-            print(" "+artist_id+" already has claim for P136\n") if hasGenre
-            hasPublicArtGenre = pywikibot.ItemPage(repo, 'Q42030') in [claim.target for claim in item.claims['P242']]
-            print(" "+artist_id+" already has Q42030 as target of P136 claim\n") if hasPublicArtGenre
+            if hasGenre:
+                print(artist_id+" already has claim for P136")
+                hasPublicArtGenre = pywikibot.ItemPage(repo, 'Q557141') in [claim.target for claim in item.claims['P136']]
+                if hasPublicArtGenre: print(artist_id+" already has Q42030 as target of P136 claim")
 
-            if not hasGenre or not hasPublicArtGenre
+            if hasGenre and hasPublicArtGenre:
+                print("Skipping...\n")
+            else:
                 print("Adding P136 claim to "+artist_id)
                 claim = pywikibot.Claim(repo, 'P136') #Adding artistic genre of oeuvre (P136)
                 target = pywikibot.ItemPage(repo, 'Q557141') #Connecting P136 with 'Public art' (Q557141)
@@ -34,7 +37,6 @@ with open('wikidata_ids.json', 'r') as file_contents:
                 claim.addSource(url, summary='Bot: Adding sources to artistic genre of oeuvre (P136).')
 
                 counter += 1
-            else:
-                print("Skipping...")
+                print("")
         else:
             print("Did not modify "+artist_id+"; hit modification limit.")
