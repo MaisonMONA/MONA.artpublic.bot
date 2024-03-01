@@ -21,7 +21,7 @@ with open('wikidata_ids.json', 'r') as file_contents:
             if hasGenre:
                 print(artist_id+" already has claim for P136")
                 hasPublicArtGenre = pywikibot.ItemPage(repo, 'Q557141') in [claim.target for claim in item.claims['P136']]
-                if hasPublicArtGenre: print(artist_id+" already has Q42030 as target of P136 claim")
+                if hasPublicArtGenre: print(artist_id+" already has Q557141 as target of P136 claim")
 
             if hasGenre and hasPublicArtGenre:
                 print("Skipping...\n")
