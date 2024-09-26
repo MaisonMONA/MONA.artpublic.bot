@@ -18,7 +18,7 @@ with open("journee_wikimedia.json", "r") as file_contents:
 
             if artwork["category"] == "Murale":
                 target = "Q219423"
-            elif artwork["category"] == "Sculpture":
+            else if artwork["category"] == "Sculpture":
                 target = "Q860861"
             else:
                 target = "Q838948"

@@ -1,6 +1,7 @@
 [
     {
         "artwork_id": 26,
+        "wikidata_qid": "Q130364331",
         "title_fr": "Moments",
         "title_en": "Moments",
         "latitude": 45.541759,
@@ -12,6 +13,7 @@
         "artist_wikidata": "Q120967504"
     },{
         "artwork_id": 125,
+        "wikidata_qid": "Q130364334",
         "title_fr": "Tissé serré",
         "title_en": "Tissé serré",
         "latitude": 45.594469841492,
@@ -23,6 +25,7 @@
         "artist_wikidata": "Q125212127"
     },{
         "artwork_id": 230,
+        "wikidata_qid": "Q130364337",
         "title_fr": "Circulation",
         "title_en": "Circulation",
         "latitude": 45.49384202087,
@@ -34,6 +37,7 @@
         "artist_wikidata": "Q124754889"
     },{
         "artwork_id": 330,
+        "wikidata_qid": "Q130364338",
         "title_fr": "Les entrecroisements",
         "title_en": "Les entrecroisements",
         "latitude": 45.49788728605,
@@ -45,6 +49,7 @@
         "artist_wikidata": "Q125245966"
     },{
         "artwork_id": 336,
+        "wikidata_qid": "Q130364342",
         "title_fr": "Non titré",
         "title_en": "Untitled",
         "latitude": 45.475525046419,
@@ -56,6 +61,7 @@
         "artist_wikidata": "Q124846656"
     },{
         "artwork_id": 843,
+        "wikidata_qid": "Q130364345",
         "title_fr": "Buste du Dr. José P. Rizal",
         "title_en": "Buste du Dr. José P. Rizal",
         "latitude": 45.491014,
@@ -67,6 +73,7 @@
         "artist_wikidata": null
     },{
         "artwork_id": 1599,
+        "wikidata_qid": "Q130364347",
         "title_fr": "Se Faire Écho",
         "title_en": null,
         "latitude": 45.541848737,
@@ -78,6 +85,7 @@
         "artist_wikidata": "Q124828890"
     },{
         "artwork_id": 1605,
+        "wikidata_qid": "Q130363504",
         "title_fr": "Double courbe",
         "title_en": null,
         "latitude": 45.550408921,

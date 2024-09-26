@@ -1,0 +1,39 @@
+
+import pywikibot
+import inspect
+import json
+
+def create_item(site, label_dict, descr_dict):
+    new_item = pywikibot.ItemPage(site)
+    new_item.editLabels(labels=label_dict, summary="Setting labels")
+    new_item.editDescriptions(descr_dict, summary="Setting descriptions.")
+    return new_item.getID()
+
+with open("journee_wikimedia.json", "r") as file_contents:
+
+    artworks = json.load(file_contents)
+
+    #site = pywikibot.Site("test", "wikidata")
+    site = pywikibot.Site("wikidata", "wikidata")
+    repo = site.data_repository()
+
+    for artwork in artworks:
+
+        label_dict = {}
+        descr_dict = {}
+        if artwork["title_en"]:
+            if artwork["category"] == "Murale":
+                descr_dict["en"] = "Mural by " + artwork["artist_name"]
+            else:
+                descr_dict["en"] = "Public artwork by " + artwork["artist_name"]
+
+        if artwork["artwork_id"] != 1605:
+            artwork_qid = artwork["wikidata_qid"]
+            item = pywikibot.ItemPage(repo, artwork_qid)
+
+
+            item.editDescription(descr_dict, summary="Updating descriptions."
+            print(label_dict)
+            print(descr_dict)
+            print("QID: " + artwork_qid)
+            print(" ")
