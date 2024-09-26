@@ -1,0 +1,78 @@
+Sleeping for 8.4 seconds, 2024-09-25 13:18:34
+Sleeping for 9.3 seconds, 2024-09-25 13:18:43
+{'fr': 'Moments', 'en': 'Moments'}
+{'fr': "Oeuvre d'art public par Julie Favreau", 'en': 'Public art by Julie Favreau'}
+QID: Q130364331
+ 
+Sleeping for 8.8 seconds, 2024-09-25 13:18:53
+Sleeping for 9.5 seconds, 2024-09-25 13:19:03
+Sleeping for 9.0 seconds, 2024-09-25 13:19:13
+{'fr': 'Tissé serré', 'en': 'Tissé serré'}
+{'fr': 'Murale par Éric Sauvé', 'en': 'Murale by Éric Sauvé'}
+QID: Q130364334
+ 
+Sleeping for 9.1 seconds, 2024-09-25 13:19:23
+Sleeping for 9.2 seconds, 2024-09-25 13:19:33
+Sleeping for 9.3 seconds, 2024-09-25 13:19:43
+{'fr': 'Circulation', 'en': 'Circulation'}
+{'fr': 'Murale par Shelley Miller', 'en': 'Murale by Shelley Miller'}
+QID: Q130364337
+ 
+Sleeping for 9.3 seconds, 2024-09-25 13:19:53
+Sleeping for 9.5 seconds, 2024-09-25 13:20:03
+Sleeping for 9.2 seconds, 2024-09-25 13:20:13
+{'fr': 'Les entrecroisements', 'en': 'Les entrecroisements'}
+{'fr': "Oeuvre d'art public par Véronique Malo", 'en': 'Public art by Véronique Malo'}
+QID: Q130364338
+ 
+Sleeping for 9.2 seconds, 2024-09-25 13:20:23
+Sleeping for 9.3 seconds, 2024-09-25 13:20:33
+Sleeping for 9.0 seconds, 2024-09-25 13:20:43
+{'fr': 'Non titré', 'en': 'Untitled'}
+{'fr': 'Sculpture par Sylvie Rochette', 'en': 'Sculpture by Sylvie Rochette'}
+QID: Q130364342
+ 
+Sleeping for 9.1 seconds, 2024-09-25 13:20:53
+Sleeping for 9.5 seconds, 2024-09-25 13:21:03
+Sleeping for 9.1 seconds, 2024-09-25 13:21:13
+{'fr': 'Buste du Dr. José P. Rizal', 'en': 'Buste du Dr. José P. Rizal'}
+{'fr': 'Murale par Abdulmari Jr. De Leon Imao', 'en': 'Murale by Abdulmari Jr. De Leon Imao'}
+QID: Q130364345
+ 
+Sleeping for 9.3 seconds, 2024-09-25 13:21:23
+Sleeping for 9.6 seconds, 2024-09-25 13:21:32
+Sleeping for 9.2 seconds, 2024-09-25 13:21:43
+{'fr': 'Se Faire Écho'}
+{'fr': "Oeuvre d'art public par Patrick Bérubé"}
+QID: Q130364347
+ 
+Sleeping for 9.5 seconds, 2024-09-25 13:21:53
+
+
+[
+    {
+        "artwork_id": 26,
+        "QID": "Q130364331"
+    },{
+        "artwork_id": 125,
+        "QID": "Q130364334"
+    },{
+        "artwork_id": 230,
+        "QID": "Q130364337"
+    },{
+        "artwork_id": 330,
+        "QID": "Q130364338"
+    },{
+        "artwork_id": 336,
+        "QID": "Q130364342"
+    },{
+        "artwork_id": 843,
+        "QID": "Q130364345"
+    },{
+        "artwork_id": 1599,
+        "QID": "Q130364347"
+    },{
+        "artwork_id": 1605,
+        "QID": "Q130363504"
+    }
+]

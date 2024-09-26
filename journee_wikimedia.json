@@ -1,0 +1,91 @@
+[
+    {
+        "artwork_id": 26,
+        "title_fr": "Moments",
+        "title_en": "Moments",
+        "latitude": 45.541759,
+        "longitude": -73.613317,
+        "year": 2018,
+        "category": null,
+        "artist_id": 682,
+        "artist_name": "Julie Favreau",
+        "artist_wikidata": "Q120967504"
+    },{
+        "artwork_id": 125,
+        "title_fr": "Tissé serré",
+        "title_en": "Tissé serré",
+        "latitude": 45.594469841492,
+        "longitude": -73.633092906746,
+        "year": 2013,
+        "category": "Murale",
+        "artist_id": 120,
+        "artist_name": "Éric Sauvé",
+        "artist_wikidata": "Q125212127"
+    },{
+        "artwork_id": 230,
+        "title_fr": "Circulation",
+        "title_en": "Circulation",
+        "latitude": 45.49384202087,
+        "longitude": -73.580738382209,
+        "year": 2011,
+        "category": "Murale",
+        "artist_id": 34,
+        "artist_name": "Shelley Miller",
+        "artist_wikidata": "Q124754889"
+    },{
+        "artwork_id": 330,
+        "title_fr": "Les entrecroisements",
+        "title_en": "Les entrecroisements",
+        "latitude": 45.49788728605,
+        "longitude": -73.630027770996,
+        "year": 2014,
+        "category": null,
+        "artist_id": 223,
+        "artist_name": "Véronique Malo",
+        "artist_wikidata": "Q125245966"
+    },{
+        "artwork_id": 336,
+        "title_fr": "Non titré",
+        "title_en": "Untitled",
+        "latitude": 45.475525046419,
+        "longitude": -73.614601798777,
+        "year": 1983,
+        "category": "Sculpture",
+        "artist_id": 226,
+        "artist_name": "Sylvie Rochette",
+        "artist_wikidata": "Q124846656"
+    },{
+        "artwork_id": 843,
+        "title_fr": "Buste du Dr. José P. Rizal",
+        "title_en": "Buste du Dr. José P. Rizal",
+        "latitude": 45.491014,
+        "longitude": -73.634079,
+        "year": 1999,
+        "category": "Murale",
+        "artist_id": 462,
+        "artist_name": "Abdulmari Jr. De Leon Imao",
+        "artist_wikidata": null
+    },{
+        "artwork_id": 1599,
+        "title_fr": "Se Faire Écho",
+        "title_en": null,
+        "latitude": 45.541848737,
+        "longitude": -73.72865716,
+        "year": 2019,
+        "category": null,
+        "artist_id": 85,
+        "artist_name": "Patrick Bérubé",
+        "artist_wikidata": "Q124828890"
+    },{
+        "artwork_id": 1605,
+        "title_fr": "Double courbe",
+        "title_en": null,
+        "latitude": 45.550408921,
+        "longitude": -73.718210521,
+        "year": 2021,
+        "category": null,
+        "artist_id": 822,
+        "artist_name": "Renée Condo",
+        "artist_wikidata": "Q124816751"
+    }
+]
