@@ -16,15 +16,15 @@ with open("journee_wikimedia.json", "r") as file_contents:
             artwork_qid = artwork["wikidata_qid"]
             item = pywikibot.ItemPage(repo, artwork_qid)
 
-            if artwork["category"] == "Murale":
-                target = "Q219423"
-            elif artwork["category"] == "Sculpture":
-                target = "Q860861"
-            else:
-                target = "Q838948"
-            claim = pywikibot.Claim(repo, "P31")   #P31, instance of
-            claim.setTarget(pywikibot.ItemPage(repo, target)) #Murale, sculpture ou work of art
-            item.addClaim(claim, summary="Bot: Adding claim describing what item is instance of")
+            if artwork["artist_wikidata"]:
+                claim = pywikibot.Claim(repo, "P170")   #P170, creator
+                claim.setTarget(pywikibot.ItemPage(repo, artwork["artist_wikidata"]))
+                item.addClaim(claim, summary="Bot: Adding claim detailing creator of work of art")
+
+            if artwork["year"]:
+                claim = pywikibot.Claim(repo, "P571")   #P571, inception
+                claim.setTarget(pywikibot.WbTime(year=artwork["year"]))
+                item.addClaim(claim, summary="Bot: Adding year of creation of work of art")
 
 
 #        item = pywikibot.ItemPage(repo, artist_id)
